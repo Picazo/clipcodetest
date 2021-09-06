@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ClipCodeTest</string>
+    <string name="users_title">Candidatos CLIP</string>
+    <string name="users_subtitle">Selecciona el candidato del cual deseas obtener su información.</string>
+    <string name="skeleton">No hay usuarios que mostrar</string>
+    <string name="email">Correo:</string>
+    <string name="adrees">Dirección:</string>
+    <string name="gender">Genero: </string>
+    <string name="phone">Teléfono: </string>
+    <string name="cell">Celular: </string>
+</resources>

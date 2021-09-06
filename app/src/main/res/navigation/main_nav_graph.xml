@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.clipcodetest.fragment.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/clip_code_test_fragment_splash"
+        app:startDestination="@id/action_splashFragment_to_usersFragment">
+        <action
+            android:id="@+id/action_splashFragment_to_usersFragment"
+            app:destination="@id/usersFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.clipcodetest.fragment.UsersFragment"
+        android:label="fragment_users"
+        tools:layout="@layout/clip_code_test_fragment_users">
+        <action
+            android:id="@+id/action_usersFragment_to_userDetailFragment"
+            app:destination="@id/userDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/userDetailFragment"
+        android:name="com.clipcodetest.fragment.UserDetailFragment"
+        android:label="fragment_detail_user"
+        tools:layout="@layout/clip_code_test_fragment_detail_user">
+        <argument
+            android:name="personalData"
+            app:argType="string" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash -->
+    <dimen name="clip_test_splash_width">100dp</dimen>
+    <dimen name="clip_test_splash_heigth">100dp</dimen>
+
+</resources>
